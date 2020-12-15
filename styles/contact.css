@@ -90,3 +90,13 @@ li {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+
+
+label,
+input,
+textarea,
+select,
+button {
+    display: block;
+}
