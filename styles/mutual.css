@@ -29,6 +29,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 20px;
 
 
 }
@@ -86,7 +87,10 @@ p {
     color: white;
 }
 
+#video-controls {
 
+    text-align: center;
+}
 
 @media only screen and (min-width: 1200px) {
 
@@ -96,7 +100,7 @@ p {
         font-family: 'Playfair Display', serif;
         background-color: #73423A;
         text-align: center;
-        padding: 30px;
+        padding: 20px;
         font-size: 2rem;
 
 
