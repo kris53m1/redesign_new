@@ -59,6 +59,31 @@ main {
     display: block;
 }
 
+.h3_splash {
+    text-align: center;
+
+
+}
+
+.h3_splash h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.h3_button {
+    background-color: transparent;
+    color: black;
+    border: 3px solid #73423A;
+
+}
+
+.h3_button:hover {
+    background-color: #73423A;
+    color: white;
+    transition-duration: 0.4s;
+
+}
+
 @media only screen and (min-width: 600px) {
     #menuknap {
         display: none;
@@ -138,6 +163,36 @@ main {
     .img_wrapper2 {
         padding-right: 20px;
     }
+
+    video {
+        object-fit: fill;
+    }
+
+    .h3_splash {
+        text-align: center;
+
+
+    }
+
+    .h3_splash h3 {
+        color: white;
+        font-size: 2rem;
+    }
+
+    .h3_button {
+        background-color: transparent;
+        color: black;
+        border: 3px solid #73423A;
+
+    }
+
+    .h3_button:hover {
+        background-color: #73423A;
+        color: white;
+        transition-duration: 0.4s;
+
+    }
+
 
 
 
