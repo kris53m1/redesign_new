@@ -1,0 +1,92 @@
+body {
+
+    margin: 0;
+    background-image: url(billeder/Luz_Background.jpg);
+
+}
+
+main {
+    margin: 0%;
+    width: 100vw;
+    /*    height: 100vh;*/
+
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#Contact {
+    height: 100vh;
+}
+
+.logo {
+
+    width: 200px;
+
+}
+
+h2 {
+
+    text-align: center;
+}
+
+p,
+li {
+
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20px;
+
+
+}
+
+/*
+.google_maps_link {
+
+    width: 100%;
+}
+*/
+
+.contact_form {
+
+    background: rgba(115, 66, 58, 0.5);
+}
+
+
+@media only screen and (min-width: 800px) {
+
+    p,
+    li {
+
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+
+    }
+
+
+    .contact_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    p,
+    li {
+
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+
+    }
+
+
+    .contact_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
