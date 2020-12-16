@@ -42,6 +42,11 @@ li {
 
 }
 
+p {
+
+    background: rgba(115, 66, 58, 0.5);
+}
+
 /*
 .google_maps_link {
 
@@ -49,11 +54,107 @@ li {
 }
 */
 
+/*
+.col_narrow_photo {
+    position: relative;
+
+    width: 400px;
+    height: 400px;
+    bottom: 50px;
+    left: 2px;
+}
+*/
+
+/*
+.col_narrow_photo {
+    position: relative;
+
+    width: 400px;
+    height: 400px;
+    bottom: 50px;
+    left: 2px;
+}
+*/
+
+.col_narrow_photo {
+    position: relative;
+    width: 334px;
+    height: 345px;
+    bottom: -10px;
+    left: 2px;
+}
+
+.col_narrow_app_text {
+
+    position: relative;
+    bottom: -24px;
+    left: -61px;
+    /*    background: rgba(115, 66, 58, 0.5);*/
+}
+
+.app_text {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .contact_form {
 
     background: rgba(115, 66, 58, 0.5);
+    color: white;
+    font-family: 'Lora', serif;
+    margin-left: 15px;
 }
 
+
+@media only screen and (min-width: 600px) {
+
+    /*
+    .col_narrow_photo {
+        position: relative;
+
+        width: 400px;
+        height: 400px;
+        bottom: 0px;
+        left: 2px;
+
+    }
+*/
+    #contact_img {
+        position: relative;
+
+        width: 345px;
+        height: 400px;
+        bottom: 0px;
+        left: 2px;
+
+
+
+    }
+
+
+    .col_narrow_app_text {
+
+        position: relative;
+        bottom: -24px;
+        left: -61px;
+        font-size: 1.5rem;
+        /*        background: rgba(115, 66, 58, 0.5);*/
+    }
+
+
+    #footer_contact {
+
+        font-family: 'Playfair Display', serif;
+        padding: 20px;
+        color: white;
+        background-color: #73423A;
+        text-decoration: none;
+        text-align: left;
+        position: relative;
+        bottom: -404px;
+    }
+}
 
 @media only screen and (min-width: 800px) {
 
@@ -67,10 +168,55 @@ li {
     }
 
 
+
+
     .contact_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    /*
+    .col_narrow_photo {
+        position: relative;
+
+        width: 400px;
+        height: 400px;
+        bottom: 10px;
+        left: 5px;
+    }
+*/
+
+    #contact_img {
+        position: relative;
+
+        width: 606px;
+        height: 400px;
+        bottom: -21px;
+        left: -28px;
+
+
+    }
+
+    .col_narrow_app_text {
+
+        position: relative;
+        bottom: -165px;
+        left: 96px;
+        font-size: 1.8rem;
+        /*        background: rgba(115, 66, 58, 0.5);*/
+    }
+}
+
+#footer_contact {
+
+    font-family: 'Playfair Display', serif;
+    padding: 20px;
+    color: white;
+    background-color: #73423A;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    bottom: -398px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -82,6 +228,26 @@ li {
         font-family: 'Raleway', sans-serif;
         margin-left: 20px;
 
+    }
+
+    #contact_img {
+        position: relative;
+
+        width: 728px;
+        height: 400px;
+        bottom: 40px;
+        left: -4px;
+
+
+    }
+
+    .col_narrow_app_text {
+
+        position: relative;
+        bottom: -165px;
+        left: 243px;
+        font-size: 2rem;
+        /*        background: rgba(115, 66, 58, 0.5);*/
     }
 
 
