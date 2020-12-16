@@ -15,6 +15,20 @@ main {
 
 }
 
+
+
+h2 {
+
+    text-align: center;
+    font-size: 3rem;
+}
+
+p {
+
+    text-shadow: 4px 4px 8px #000000;
+    font-weight: bold;
+}
+
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -28,6 +42,18 @@ main {
 #service_and_about {
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.knap {
+
+    width: 20px;
+}
+
+button {
+
+    width: 60px;
+    height: 30px;
+    position: relative;
 }
 
 @media (min-aspect-ratio: 16/9) {
