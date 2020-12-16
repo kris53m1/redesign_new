@@ -47,7 +47,7 @@ p {
     background: rgba(115, 66, 58, 0.5);
 }
 
-.knap {
+.Knap {
 
     font-family:
         'Raleway', sans-serif;
@@ -217,7 +217,7 @@ p {
         /*        background: rgba(115, 66, 58, 0.5);*/
     }
 
-    .knap {
+    .Knap {
 
         font-family:
             'Raleway', sans-serif;
@@ -277,7 +277,7 @@ p {
         grid-template-columns: 1fr 1fr;
     }
 
-    .knap {
+    .Knap {
 
         font-family:
             'Raleway', sans-serif;
@@ -285,8 +285,14 @@ p {
         right: -20px;
         margin-right: 40px;
         font-size: 1.5rem;
+
+        position: relative;
+        right: -26px;
+        width: 10rem;
+        height: 4rem;
     }
 }
+
 
 
 
