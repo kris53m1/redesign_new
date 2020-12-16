@@ -115,12 +115,11 @@ main {
 
         position: relative;
         z-index: -1;
-        /*not work if the screen ratio is below 16/9*/
+
         width: 100%;
         height: auto;
 
     }
-
     .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
