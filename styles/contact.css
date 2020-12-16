@@ -47,6 +47,15 @@ p {
     background: rgba(115, 66, 58, 0.5);
 }
 
+.knap {
+
+    font-family:
+        'Raleway', sans-serif;
+    position: relative;
+    right: -20px;
+    margin-right: 40px;
+}
+
 /*
 .google_maps_link {
 
@@ -195,6 +204,8 @@ p {
         left: -28px;
 
 
+
+
     }
 
     .col_narrow_app_text {
@@ -204,6 +215,16 @@ p {
         left: 96px;
         font-size: 1.8rem;
         /*        background: rgba(115, 66, 58, 0.5);*/
+    }
+
+    .knap {
+
+        font-family:
+            'Raleway', sans-serif;
+        position: relative;
+        right: -20px;
+        margin-right: 40px;
+        font-size: 1rem;
     }
 }
 
@@ -254,6 +275,16 @@ p {
     .contact_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .knap {
+
+        font-family:
+            'Raleway', sans-serif;
+        position: relative;
+        right: -20px;
+        margin-right: 40px;
+        font-size: 1.5rem;
     }
 }
 
